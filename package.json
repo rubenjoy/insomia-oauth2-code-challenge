@@ -1,0 +1,19 @@
+{
+  "name": "insomnia-plugin-oauth2-thirdparty",
+  "version": "1.0.0",
+  "description": "related to OAuth2 Third Party",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "insomnia": {
+    "name": "oauth2CodeChallenge",
+    "description": "generate code challenge for authorize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
